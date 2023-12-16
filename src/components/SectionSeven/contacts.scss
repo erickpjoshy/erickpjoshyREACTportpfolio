@@ -1,0 +1,82 @@
+.sec7bg {
+  height: 100vh;
+}
+
+.contact {
+  height: 100%;
+  max-width: 1366px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+
+  .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    h1 {
+      font-size: 80px;
+      line-height: 80px;
+    }
+    span {
+      font-weight: 300;
+    }
+  }
+  .formContainer {
+    flex: 1;
+    // position: relative;
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      input,
+      textarea {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 20px;
+        background-color: transparent;
+        border-radius: 5px;
+      }
+      button {
+        padding: 20px;
+        border: none;
+        background-color: #32caca;
+        cursor: pointer;
+        font-weight: 500;
+      }
+    }
+  }
+  //   .phoneSvg {
+  //     position: absolute;
+  //     stroke: #32caca;
+  //     margin: auto;
+  //     z-index: 200000;
+  //     top: 0;
+  //   }
+}
+.hide {
+  display: none !important;
+}
+.display {
+  display: block;
+}
+.label-style {
+  padding: 20px;
+  background-color: #0080747d;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  .sec7bg {
+    height: 150vh;
+  }
+  .contact {
+    gap: 10px;
+  }
+  .contact .textContainer h1 {
+    font-size: 40px;
+    line-height: 2px;
+  }
+}

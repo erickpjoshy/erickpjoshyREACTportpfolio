@@ -1,0 +1,95 @@
+.s2bg {
+  background: #000;
+}
+.imagesec {
+  width: 40%;
+  height: 440px;
+  //   border: 1px solid #32caca;
+  //   padding: 24px 0;
+}
+.imagesec img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.contentsec {
+  width: 60%;
+  h3 {
+    font-weight: bolder;
+    font-size: 24px;
+    color: #32caca;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+  .icon {
+    color: #32caca;
+  }
+  li {
+    margin: 20px 0;
+  }
+}
+
+.skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.progress-bar-wrap {
+  background: rgba(255, 255, 255, 0.2);
+  .progress-bar {
+    height: 10px;
+    transition: 0.9s;
+    background-color: #32caca;
+  }
+}
+
+.intrestcontainer {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  transition: ease-in-out 0.3s;
+  margin: 6px;
+
+  i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+  }
+  h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+    color: #fff;
+  }
+}
+
+@media (max-width: 950px) {
+  .imagesec {
+    width: 100%;
+  }
+  .contentsec {
+    width: 100%;
+
+    h3 {
+      letter-spacing: 2px;
+      font-size: 20px;
+    }
+  }
+}

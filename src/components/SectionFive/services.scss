@@ -1,0 +1,63 @@
+.sec6bg {
+  .section-start {
+    padding-top: 70px;
+  }
+}
+.card {
+  text-align: center;
+  background: rgba(204, 204, 204, 0.1);
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  min-height: 511px;
+  .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #32caca;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transform-style: preserve-3d;
+    transition: all ease-in-out 0.3s;
+    i {
+      color: #fff;
+      font-size: 28px;
+      transition: all ease-in-out 0.3s;
+    }
+  }
+  .icon::before {
+    position: absolute;
+    content: '';
+    left: -8px;
+    top: -8px;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    transition: all 0.3s ease-out 0s;
+    transform: translateZ(-1px);
+  }
+  h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+}
+
+.card:hover {
+  background: #32caca;
+  border-color: #32caca;
+  .icon {
+    background: #fff !important;
+  }
+  i {
+    color: #32caca;
+  }
+}

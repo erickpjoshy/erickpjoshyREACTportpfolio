@@ -1,0 +1,21 @@
+.navbar {
+  font-size: 12px;
+}
+.socialhover {
+  color: lightgrey;
+  transition: color 0.3s ease;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+}
+.socialhover:hover {
+  color: #32caca;
+}
+
+@media (max-width: 640px) {
+  .headres {
+    display: none !important;
+  }
+}

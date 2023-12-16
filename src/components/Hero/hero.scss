@@ -1,0 +1,76 @@
+.hero {
+  height: calc(100vh - 5rem);
+  overflow: hidden;
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  // background-color: #000;
+  position: relative;
+  .wrapper {
+    height: 100%;
+    .textContainer {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 50%;
+      gap: 20px;
+      h2 {
+        font-size: 24px;
+        color: #32caca;
+        letter-spacing: 4px;
+        font-weight: bolder;
+      }
+      h1 {
+        font-size: 50px;
+        font-weight: bolder;
+      }
+      .down-arrow {
+        z-index: 100;
+      }
+      button {
+        background-color: transparent;
+        border: 1px solid #fff;
+        padding: 8px 12px;
+        border-radius: 10px;
+        margin-right: 20px;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 300;
+        z-index: 100;
+      }
+    }
+    .imageContainer {
+      width: 50%;
+      display: none;
+      .imgst2 {
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    .slidingTextContainer {
+      position: absolute;
+      font-size: 280px;
+      bottom: -45px;
+      white-space: nowrap;
+      color: #ffffff09;
+      width: 50%;
+      font-weight: bold;
+    }
+    .imgst {
+      position: absolute;
+      width: 700px;
+      right: 0;
+      opacity: 0.8;
+    }
+  }
+}
+@media (max-width: 640px) {
+  .hero {
+    height: calc(100vh - 3.9rem);
+  }
+}
+
+@media (max-width: 825px) {
+  .textContainer {
+    width: 100% !important;
+  }
+}

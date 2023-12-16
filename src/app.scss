@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: ' ';
+  display: table;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.credits {
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  text-align: right;
+  font-size: 12px;
+  z-index: 999999;
+  padding: 15px;
+}
+
+section {
+  scroll-snap-align: center;
+}
+
+.bg {
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+}
+
+// -----------------------------Section Styles-------------------------------//
+.section-start {
+  padding-top: 100px;
+  height: 100%;
+}
+.sectiontitle h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 20px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+.sectiontitle h2::after {
+  content: '';
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #32caca;
+  margin: 4px 10px;
+}
+
+.sectiontitle p {
+  margin: 0;
+  margin: -15px 0 15px 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
