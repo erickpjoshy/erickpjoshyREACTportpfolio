@@ -142,10 +142,13 @@ const About = () => {
               </div>
               <div>
                 <span className="skill">
-                  Tailwind <i className="val">60%</i>
+                  Tailwind <i className="val">90%</i>
                 </span>
                 <div className="progress-bar-wrap">
-                  <div className="progress-bar w-3/5" role="progressbar"></div>
+                  <div
+                    className="progress-bar w-11/12"
+                    role="progressbar"
+                  ></div>
                 </div>
               </div>
               <div>
@@ -158,34 +161,46 @@ const About = () => {
               </div>
               <div>
                 <span className="skill">
-                  React JS <i className="val">60%</i>
+                  React JS <i className="val">90%</i>
                 </span>
                 <div className="progress-bar-wrap">
-                  <div className="progress-bar w-3/5" role="progressbar"></div>
+                  <div
+                    className="progress-bar w-11/12"
+                    role="progressbar"
+                  ></div>
                 </div>
               </div>
               <div>
                 <span className="skill">
-                  Node JS <i className="val">Exploring</i>
+                  Node JS <i className="val">90%</i>
                 </span>
                 <div className="progress-bar-wrap">
-                  <div className="progress-bar w-0" role="progressbar"></div>
+                  <div
+                    className="progress-bar w-11/12"
+                    role="progressbar"
+                  ></div>
                 </div>
               </div>
               <div>
                 <span className="skill">
-                  Mongo DB <i className="val">Exploring</i>
+                  Mongo DB <i className="val">90%</i>
                 </span>
                 <div className="progress-bar-wrap">
-                  <div className="progress-bar w-0" role="progressbar"></div>
+                  <div
+                    className="progress-bar w-11/12"
+                    role="progressbar"
+                  ></div>
                 </div>
               </div>
               <div>
                 <span className="skill">
-                  Express JS <i className="val">Exploring</i>
+                  Express JS <i className="val">100%</i>
                 </span>
                 <div className="progress-bar-wrap">
-                  <div className="progress-bar w-0" role="progressbar"></div>
+                  <div
+                    className="progress-bar w-12/12"
+                    role="progressbar"
+                  ></div>
                 </div>
               </div>
             </div>

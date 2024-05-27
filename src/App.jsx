@@ -5,6 +5,7 @@ import About from './components/SectionTwo/About';
 import Resume from './components/SectionThree/Resume';
 import Services from './components/SectionFive/Services';
 import PortFolio from './components/SectionSix/PortFolio';
+import Certificates from './components/SectionCertificate/Certificates';
 import Contacts from './components/SectionSeven/Contacts';
 const App = () => {
   return (
@@ -25,6 +26,9 @@ const App = () => {
       </section>
       <section id="Portfolio">
         <PortFolio />
+      </section>
+      <section id="Certificates">
+        <Certificates />
       </section>
       <section id="Contact">
         <Contacts />
