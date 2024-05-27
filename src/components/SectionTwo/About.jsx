@@ -11,7 +11,7 @@ const About = () => {
         </div>
         <div className="row flex flex-wrap">
           <div className="imagesec mt-4">
-            <img src="./erick6.jpg"></img>
+            <img src="./erick6.jpg" alt="erickpjoshy-photo"></img>
           </div>
           <div className="pl-0 sm:pl-8 contentsec mt-4">
             <h3>FULL STACK DEVELOPER</h3>

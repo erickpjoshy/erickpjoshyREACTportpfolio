@@ -14,6 +14,7 @@ const Certificates = () => {
             <img
               src="/erickskiencertificate.png"
               className="w-full h-full object-contain"
+              alt="erickpjoshy-certificate"
             />
             <p className="text-center">
               C# .NET Fullstack Developer EXP Certificate
