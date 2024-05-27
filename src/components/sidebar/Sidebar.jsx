@@ -1,4 +1,4 @@
-import './Sidebar.scss';
+import './sidebar.scss';
 import { motion } from 'framer-motion';
 import Tooglebutton from './tooglebuttons/Tooglebutton';
 import Links from './links/links';
