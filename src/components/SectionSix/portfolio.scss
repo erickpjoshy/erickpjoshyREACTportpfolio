@@ -1,3 +1,14 @@
-.sec5bg {
-  height: 100vh;
+.my-works-hover-effect {
+  display: none;
+  transition: all ease-in-out 0.3s;
+}
+.my-works-hover:hover {
+  .my-works-hover-effect {
+    color: #32caca;
+    display: block;
+  }
+  .opa {
+    opacity: 0.2;
+    background-color: black;
+  }
 }
