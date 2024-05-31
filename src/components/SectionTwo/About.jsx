@@ -16,10 +16,10 @@ const About = () => {
           <div className="pl-0 sm:pl-8 contentsec mt-4">
             <h3>FULL STACK DEVELOPER</h3>
             <p className="italic">
-              I'm a fullstack developer with no experiance focused on crafting
-              clean user‑friendly experiences, &amp; I am passionate about
-              building excellent websites that improves the lives of those
-              around me.
+              I'm a fullstack MERN & C# .NET developer with 2+ Yrs experiance
+              focused on crafting clean user‑friendly experiences, &amp; I am
+              passionate about building excellent websites that improves the
+              lives of those around me.
             </p>
             <div className="row mt-6 flex flex-wrap">
               <div className="w-full md:w-6/12">
