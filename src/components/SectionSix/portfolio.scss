@@ -2,6 +2,9 @@
   display: none;
   transition: all ease-in-out 0.3s;
 }
+.opa {
+  border: 1px solid #32caca;
+}
 .my-works-hover:hover {
   .my-works-hover-effect {
     color: #32caca;

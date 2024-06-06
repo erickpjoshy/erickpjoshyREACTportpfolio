@@ -13,7 +13,7 @@ const Nav = () => {
           transition={{ duration: 0.5 }}
         >
           {/* <span>
-            <i class="fa-solid fa-stethoscope"></i>
+            <i className="fa-solid fa-stethoscope"></i>
           </span> */}
           <span>
             <h1 className="text-lg sm:text-xl headres">Meb Doctor Tech</h1>
