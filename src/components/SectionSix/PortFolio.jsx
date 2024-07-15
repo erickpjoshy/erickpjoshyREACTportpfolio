@@ -73,6 +73,48 @@ const PortFolio = () => {
               </p>
             </div>
           </div>
+          <div className="img-container relative my-works-hover">
+            <div className="opa">
+              <img
+                src="/elbuilders.png"
+                className="w-full h-full object-contain"
+                alt="erickpjoshy-elbuilders"
+              />
+            </div>
+            <div className="absolute top-0 w-full h-full my-works-hover-effect">
+              <p className="justify-center flex items-center h-full w-full">
+                <i className="fa-solid fa-link mr-2"></i>
+                <a
+                  className=""
+                  href="https://amal-davis.github.io/elite_final/"
+                  target="_blank"
+                >
+                  Visit Elite Builders
+                </a>
+              </p>
+            </div>
+          </div>
+          <div className="img-container relative my-works-hover">
+            <div className="opa">
+              <img
+                src="/evently.png"
+                className="w-full h-full object-contain"
+                alt="erickpjoshy-todolist"
+              />
+            </div>
+            <div className="absolute top-0 w-full h-full my-works-hover-effect">
+              <p className="justify-center flex items-center h-full w-full">
+                <i className="fa-solid fa-link mr-2"></i>
+                <a
+                  className=""
+                  href="https://evently.erickpjoshy.cloud/"
+                  target="_blank"
+                >
+                  Visit Toolmec Evently Platform
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

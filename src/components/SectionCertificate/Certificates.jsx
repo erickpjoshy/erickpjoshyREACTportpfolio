@@ -20,6 +20,14 @@ const Certificates = () => {
               C# .NET Fullstack Developer EXP Certificate
             </p>
           </div>
+          <div className="img-container">
+            <img
+              src="/techcertificate.png"
+              className="w-full h-full object-contain"
+              alt="erickpjoshy-mern-certificate"
+            />
+            <p className="text-center">MERN Stack developer Certificate</p>
+          </div>
         </div>
       </div>
     </div>
